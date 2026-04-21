@@ -1,0 +1,72 @@
+{
+  "chapter": {
+    "id": "news",
+    "number": 10,
+    "title": "最新ニュース",
+    "emoji": "📰",
+    "summary": "毎週自動更新されるAI業界の動向",
+    "updateNote": "このページは毎週月曜朝に自動更新されます。"
+  },
+  "lastUpdated": "2026-04-20",
+  "nextUpdateHint": "2026-04-27",
+  "headline": "2026年4月第3週：Claude Opus 4.7登場、OpenAI-Cerebrasチップ契約、フィジカルAI急拡大",
+  "overview": "4月16日にAnthropicがClaude Opus 4.7をリリースし、SWE-bench Verifiedで87.6%を達成してコーディング首位を奪還。翌17日にはOpenAIがCerebrasと3年200億ドル超のチップ契約を締結し、AI推論インフラ争奪が激化。フィジカルAI分野では現代自動車の米国ロボット生産計画や2035年累計1.45億台の市場予測が相次ぎ、EU AI Actの8月本格適用を前に各社の規制対応が本格化している。",
+  "items": [
+    {
+      "date": "2026-04-16",
+      "title": "Anthropic、Claude Opus 4.7を正式リリース",
+      "body": "AnthropicがClaude Opus 4.7をリリース。1Mトークンコンテキスト・強化ビジョン（3.3倍解像度）搭載。SWE-bench Verified 87.6%でコーディング首位を奪還し、エージェントワークフロー向けの強化も顕著。料金は$5/$25で据え置き。",
+      "tag": "モデル",
+      "source": "https://www.aipricing.guru/blog/claude-opus-4-7-vs-gpt-5-4-vs-gemini-3/",
+      "sourceLabel": "AI Pricing Guru"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "OpenAI、Cerebrasチップに3年200億ドル超を発注",
+      "body": "OpenAIが3年間でCerebrasウェーハスケールチップに200億ドル以上を発注する契約を締結。Cerebrasは2026年Q2のIPOを目指す方針も明らかにした。大手AI企業による推論インフラの囲い込みが加速。",
+      "tag": "市場",
+      "source": "https://radicaldatascience.wordpress.com/2026/04/17/ai-news-briefs-bulletin-board-for-april-2026/",
+      "sourceLabel": "Radical Data Science"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "NVIDIA、Nemotron 3 Super（120B MoE）を発表",
+      "body": "NVIDIAが120Bパラメータ・12Bアクティブの「Nemotron 3 Super」を発表。Mamba-Attention MoEアーキテクチャにより同規模オープンモデル比2.2倍の推論スループットを実現。1Mトークンコンテキストに対応。",
+      "tag": "モデル",
+      "source": "https://radicaldatascience.wordpress.com/2026/04/17/ai-news-briefs-bulletin-board-for-april-2026/",
+      "sourceLabel": "Radical Data Science"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "フィジカルAI機器、2035年までに累計1.45億台予測",
+      "body": "Counterpoint Researchが自律走行車・ロボット・ドローンを合わせたフィジカルAI機器の累計出荷を2025〜2035年で1.45億台と予測。半導体コストが主要コスト要因となり、インフラ・物流・建設への構造変革が進む見通し。",
+      "tag": "フィジカルAI",
+      "source": "https://highways.today/2026/04/18/145m-autonomous-machines/",
+      "sourceLabel": "Highways Today"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "現代自動車、米国工場でロボット年間3万台生産へ",
+      "body": "現代自動車グループが米国拠点の新設ロボティクス工場を2028年までに稼働し、年間3万台の生産を計画。ヒューマノイド・四足歩行ロボット・モバイルドロイドの複数プラットフォームを展開し、フィジカルAI事業を本格化。",
+      "tag": "フィジカルAI",
+      "source": "https://www.progressiverobot.com/2026/04/18/hyundai-robotics-physical-ai/",
+      "sourceLabel": "Progressive Robot"
+    },
+    {
+      "date": "2026-04",
+      "title": "EU AI Act：8月2日本格適用、採用AIも高リスク分類",
+      "body": "EU AI Actの主要規定が2026年8月2日から適用開始。採用・勤怠管理AIが高リスク分類となり、リスクアセスメント・バイアス検証・人間監視の整備が義務化される。未対応企業には最大100万ユーロの罰金が課される。",
+      "tag": "規制",
+      "source": "https://artificialintelligenceact.eu/implementation-timeline/",
+      "sourceLabel": "EU AI Act"
+    },
+    {
+      "date": "2026-04",
+      "title": "Q1 2026のVC投資、AI分野が2420億ドルで過去最高",
+      "body": "2026年Q1の世界VC投資は3000億ドルで過去最高を更新。うちAIが80%（2420億ドル）を占め、エージェントAI分野は前年同期比142%増の26.6億ドルを調達。SaaSからエージェント型AIへのシフトが明確に。",
+      "tag": "市場",
+      "source": "https://thebranx.com/blog/q1s-vc-funding-record-and-where-ai-saas-are-heading-in-2026",
+      "sourceLabel": "The Branx"
+    }
+  ]
+}
