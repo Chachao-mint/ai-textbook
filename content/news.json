@@ -7,66 +7,74 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-04-20",
-  "nextUpdateHint": "2026-04-27",
-  "headline": "2026年4月第3週：Claude Opus 4.7登場、OpenAI-Cerebrasチップ契約、フィジカルAI急拡大",
-  "overview": "4月16日にAnthropicがClaude Opus 4.7をリリースし、SWE-bench Verifiedで87.6%を達成してコーディング首位を奪還。翌17日にはOpenAIがCerebrasと3年200億ドル超のチップ契約を締結し、AI推論インフラ争奪が激化。フィジカルAI分野では現代自動車の米国ロボット生産計画や2035年累計1.45億台の市場予測が相次ぎ、EU AI Actの8月本格適用を前に各社の規制対応が本格化している。",
+  "lastUpdated": "2026-04-27",
+  "nextUpdateHint": "2026-05-04",
+  "headline": "2026年4月第4週：GPT-5.5登場、GoogleがAnthropicへ最大400億ドル、エージェント基盤競争が新局面",
+  "overview": "4月23日にOpenAIがGPT-5.5を投入し、わずか6週間ぶりの更新で1Mトークン対応とコーディング強化を実現。翌24日にはGoogleがAnthropicへ最大400億ドル・5GWの計算容量を提供する大型投資を発表し、先のAWS最大250億ドル枠と並ぶ二大計算供給連合の構図が固まった。Google CloudはGemini Enterprise Agent Platformで企業向けエージェント基盤を一本化し、ServiceNowとも自律運用で提携。Hannover MesseではNVIDIA基盤の産業用ヒューマノイドが量産フェーズに入り、国内ではソフトバンクの「Natural AI Phone」発売、デジタル庁の政府AI「源内」OSS公開と動きが相次いだ。",
   "items": [
     {
-      "date": "2026-04-16",
-      "title": "Anthropic、Claude Opus 4.7を正式リリース",
-      "body": "AnthropicがClaude Opus 4.7をリリース。1Mトークンコンテキスト・強化ビジョン（3.3倍解像度）搭載。SWE-bench Verified 87.6%でコーディング首位を奪還し、エージェントワークフロー向けの強化も顕著。料金は$5/$25で据え置き。",
+      "date": "2026-04-23",
+      "title": "OpenAI、フラッグシップ「GPT-5.5」を投入",
+      "body": "OpenAIが4月23日にGPT-5.5を発表。6週間前のGPT-5.4から続く高速更新で、1Mトークン文脈・PC操作・コーディング・調査機能を強化した。価格はAPIで$5/$30（入力/出力・100万トークン）。Plus・Pro・Enterpriseに順次展開し、24日にAPIも開放された。",
       "tag": "モデル",
-      "source": "https://www.aipricing.guru/blog/claude-opus-4-7-vs-gpt-5-4-vs-gemini-3/",
-      "sourceLabel": "AI Pricing Guru"
+      "source": "https://openai.com/index/introducing-gpt-5-5/",
+      "sourceLabel": "OpenAI"
     },
     {
-      "date": "2026-04-17",
-      "title": "OpenAI、Cerebrasチップに3年200億ドル超を発注",
-      "body": "OpenAIが3年間でCerebrasウェーハスケールチップに200億ドル以上を発注する契約を締結。Cerebrasは2026年Q2のIPOを目指す方針も明らかにした。大手AI企業による推論インフラの囲い込みが加速。",
+      "date": "2026-04-24",
+      "title": "Google、Anthropicへ最大400億ドルの追加投資を発表",
+      "body": "Googleは4月24日、評価額3500億ドルのAnthropicに即時100億ドル、業績目標達成で追加300億ドルを投資すると発表。今後5年でGoogle Cloudから5GWの計算容量を提供する。直前のAWSによる最大250億ドル枠に続く動きで、計算リソース確保競争が一段と激化した。",
       "tag": "市場",
-      "source": "https://radicaldatascience.wordpress.com/2026/04/17/ai-news-briefs-bulletin-board-for-april-2026/",
-      "sourceLabel": "Radical Data Science"
+      "source": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+      "sourceLabel": "CNBC"
     },
     {
-      "date": "2026-04-17",
-      "title": "NVIDIA、Nemotron 3 Super（120B MoE）を発表",
-      "body": "NVIDIAが120Bパラメータ・12Bアクティブの「Nemotron 3 Super」を発表。Mamba-Attention MoEアーキテクチャにより同規模オープンモデル比2.2倍の推論スループットを実現。1Mトークンコンテキストに対応。",
-      "tag": "モデル",
-      "source": "https://radicaldatascience.wordpress.com/2026/04/17/ai-news-briefs-bulletin-board-for-april-2026/",
-      "sourceLabel": "Radical Data Science"
+      "date": "2026-04-22",
+      "title": "Google、Gemini Enterprise Agent Platformを発表",
+      "body": "Google Cloud Nextで、Vertex AIを進化させた統合エージェント基盤を公開。Gemini 3.1 Proを核にモデル選定・構築・運用・ガバナンスを一体化し、MCPで外部ツール連携を拡張。Deep Research/Deep Research Maxも同時投入され、企業向けエージェント開発の標準化が進んだ。",
+      "tag": "エージェント",
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform",
+      "sourceLabel": "Google Cloud Blog"
     },
     {
-      "date": "2026-04-18",
-      "title": "フィジカルAI機器、2035年までに累計1.45億台予測",
-      "body": "Counterpoint Researchが自律走行車・ロボット・ドローンを合わせたフィジカルAI機器の累計出荷を2025〜2035年で1.45億台と予測。半導体コストが主要コスト要因となり、インフラ・物流・建設への構造変革が進む見通し。",
+      "date": "2026-04-22",
+      "title": "ServiceNowとGoogle Cloud、AIエージェントの自律運用で提携拡大",
+      "body": "両社が4月22日に提携拡大を発表。ServiceNowのエージェントとGoogleのGeminiエージェントが相互運用し、5G・小売・IT運用の各領域で問題検知から解決までを自律遂行する。クロスプラットフォームでのエージェント協調がパイロットから本番運用フェーズに入った。",
+      "tag": "エージェント",
+      "source": "https://www.googlecloudpresscorner.com/2026-04-22-ServiceNow-and-Google-Cloud-Unite-AI-Agents-for-Autonomous-Enterprise-Operations",
+      "sourceLabel": "Google Cloud Press"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Hannover Messe 2026、産業用ヒューマノイドが量産フェーズへ",
+      "body": "4月20-24日のHannover Messeで、Agile Robotsの「Agile ONE」やSiemens×HumanoidのNVIDIA基盤「HMND 01 Alpha」が出展。HMND 01は8時間連続稼働で毎時60コンテナ搬送、ピッキング成功率90%超を記録し、製造現場での実装段階に入った。",
       "tag": "フィジカルAI",
-      "source": "https://highways.today/2026/04/18/145m-autonomous-machines/",
-      "sourceLabel": "Highways Today"
+      "source": "https://thenextweb.com/news/siemens-nvidia-humanoid-robot-erlangen-factory-trial",
+      "sourceLabel": "The Next Web"
     },
     {
-      "date": "2026-04-18",
-      "title": "現代自動車、米国工場でロボット年間3万台生産へ",
-      "body": "現代自動車グループが米国拠点の新設ロボティクス工場を2028年までに稼働し、年間3万台の生産を計画。ヒューマノイド・四足歩行ロボット・モバイルドロイドの複数プラットフォームを展開し、フィジカルAI事業を本格化。",
-      "tag": "フィジカルAI",
-      "source": "https://www.progressiverobot.com/2026/04/18/hyundai-robotics-physical-ai/",
-      "sourceLabel": "Progressive Robot"
+      "date": "2026-04-24",
+      "title": "ソフトバンク、AIネイティブ端末「Natural AI Phone」を発売",
+      "body": "ソフトバンクは4月24日、米Brain Technologies開発のAIネイティブ端末「Natural AI Phone」を国内独占販売開始。専用ボタンでAIエージェントを呼び出し、複数アプリを横断する操作を1つの自然言語指示で完結させる。価格93,600円で日本独占販売は1年。",
+      "tag": "モバイルAI",
+      "source": "https://www.softbank.jp/en/sbnews/entry/20260420_01",
+      "sourceLabel": "SoftBank News"
     },
     {
-      "date": "2026-04",
-      "title": "EU AI Act：8月2日本格適用、採用AIも高リスク分類",
-      "body": "EU AI Actの主要規定が2026年8月2日から適用開始。採用・勤怠管理AIが高リスク分類となり、リスクアセスメント・バイアス検証・人間監視の整備が義務化される。未対応企業には最大100万ユーロの罰金が課される。",
+      "date": "2026-04-24",
+      "title": "デジタル庁、政府生成AI「源内」をOSSとしてGitHub公開",
+      "body": "デジタル庁は4月24日、内製の政府向け生成AI利用環境「源内」の一部をOSSとしてGitHub公開した。商用利用も可能で、自治体や民間が機能を再利用できる。政府業務の文書生成・知識検索基盤を共通インフラ化し、ガバメントAIの透明性と再現性を高める狙い。",
+      "tag": "AI SaaS",
+      "source": "https://news.yahoo.co.jp/articles/6db8222fffb55b683c8d7cd133453e5c96e0566b",
+      "sourceLabel": "ビジネス＋IT / Yahoo!"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "EU、AI分野の医療・オンライン安全に6320万ユーロ追加支援",
+      "body": "欧州委員会は4月21日、医療とオンライン安全領域でのAIイノベーション支援に6320万ユーロの拠出を発表。8月2日のEU AI Act本格適用を控え、高リスク領域のコンプライアンス実装を後押しする狙いで、域内事業者の対応整備を加速させる。",
       "tag": "規制",
-      "source": "https://artificialintelligenceact.eu/implementation-timeline/",
+      "source": "https://artificialintelligenceact.eu/",
       "sourceLabel": "EU AI Act"
-    },
-    {
-      "date": "2026-04",
-      "title": "Q1 2026のVC投資、AI分野が2420億ドルで過去最高",
-      "body": "2026年Q1の世界VC投資は3000億ドルで過去最高を更新。うちAIが80%（2420億ドル）を占め、エージェントAI分野は前年同期比142%増の26.6億ドルを調達。SaaSからエージェント型AIへのシフトが明確に。",
-      "tag": "市場",
-      "source": "https://thebranx.com/blog/q1s-vc-funding-record-and-where-ai-saas-are-heading-in-2026",
-      "sourceLabel": "The Branx"
     }
   ]
 }
