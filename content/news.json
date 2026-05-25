@@ -7,66 +7,66 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-05-18",
-  "nextUpdateHint": "2026-05-25",
-  "headline": "2026年5月第3週：EUがAI Act高リスク規制を延期、AnthropicとGoogleが「エージェントOS化」競争を加速",
-  "overview": "5月7日にEU理事会と欧州議会がデジタル・オムニバス案で合意し、高リスクAI規制の適用を2027〜28年へ延期。事業者に準備期間を与える一方、規制の方向性そのものは維持された。プロダクト面では、AnthropicがQuickBooksやHubSpotと連携する「Claude for Small Business」を投入し中小企業市場へ進出、GoogleはAndroidをGemini中心の「インテリジェンス・システム」へ再設計すると表明した。OpenAIは企業導入を担うDeployment Companyを設立。資金調達ではRecursive Superintelligenceが6.5億ドルを調達し、羽田空港ではJALがヒューマノイドの実証を開始するなど、フィジカルAIの社会実装も進んだ。",
+  "lastUpdated": "2026-05-25",
+  "nextUpdateHint": "2026-06-01",
+  "headline": "2026年5月第4週：Google I/Oで「Gemini Spark」発表、Karpathyが電撃移籍、Metaは8,000人削減――AI再編が一気に加速",
+  "overview": "5月19日のGoogle I/Oで、Gemini 3.5 Flashの一般提供と個人エージェント「Gemini Spark」が披露され、Gemini中心の生活OS化が一段と鮮明になった。同じ日、OpenAI共同創業者のAndrej KarpathyがAnthropic事前学習チームへの移籍を公表し、フロンティアモデル開発が「人材争奪」と「AIによるAI研究の自動化」の双方に広がっていることを示した。翌5月20日にはMetaが全社の約10%にあたる約8,000人を解雇しAIへの全面シフトを宣言。資金面ではエンタープライズAIエージェント関連が複数の大型調達を集め、フィジカルAIでも英Humanoidとシャエフラーが量産配備の拘束力ある契約を締結。AppleもWWDC（6月8日）直前に「genai.apple.com」を登録し、巨人各社の次の一手が同時に動き出した一週間となった。",
   "items": [
     {
-      "date": "2026-05-07",
-      "title": "EU、AI Actの高リスク規制適用を2027〜28年へ延期で合意",
-      "body": "EU理事会と欧州議会は5月7日、デジタル・オムニバス案で暫定合意。Annex IIIの単独型高リスクAIの義務適用を2027年12月2日まで、規制対象製品組込み型を2028年8月2日まで延期する。標準規格の整備遅れを受けた措置で、事業者に準備時間を確保しつつ規制の枠組み自体は維持された。",
-      "tag": "規制",
-      "source": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "sourceLabel": "EU理事会"
+      "date": "2026-05-19",
+      "title": "Google I/O 2026、Gemini 3.5 Flash一般提供と個人エージェント「Gemini Spark」を発表",
+      "body": "Googleは5月19日のI/Oで、Gemini 3.1 Proを上回りつつ4倍高速をうたうGemini 3.5 Flashを一般公開。Gemini App・検索・Antigravity 2.0・APIで即日展開した。同時にMCP連携で長尺タスクを24時間引き受ける個人エージェント「Gemini Spark」、Gmail/カレンダー/タスクを横断して翌日の動きを整理する「Daily Brief」、動画生成のGemini Omniも発表。",
+      "tag": "エージェント",
+      "source": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "sourceLabel": "Google Blog"
     },
     {
-      "date": "2026-05-13",
-      "title": "Anthropic、中小企業向け「Claude for Small Business」を投入",
-      "body": "Anthropicは5月13日、中小企業向けパッケージを発表。QuickBooks・PayPal・HubSpot・Canva・DocuSign・Google Workspace・Microsoft 365など8ツールと連携し、月次決算や請求書督促、リード仕分けなど15の即実行ワークフローと15の再利用スキルを提供する。シカゴを皮切りに全米10都市での無料研修ツアーも始動した。",
+      "date": "2026-05-19",
+      "title": "OpenAI共同創業者Andrej Karpathy、Anthropicの事前学習チームへ移籍",
+      "body": "TeslaのFSDを率いた後にEureka Labsを創業していたAndrej Karpathyが5月19日、Anthropicに参加すると公表。事前学習リードのNick Joseph配下で、Claude自身を使って事前学習研究を自動化する新チームを立ち上げる。純粋な計算資源ではなく「AIによるAI研究」をフロンティア競争の主戦場に据えるAnthropicの賭けを象徴する人事となった。",
+      "tag": "モデル",
+      "source": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "sourceLabel": "TechCrunch"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Meta、約8,000人をレイオフし「AI最優先」へ大規模再編",
+      "body": "Metaは5月20日、グローバル従業員の約10%にあたる8,000人規模の人員削減を開始。インテグリティ・サイバーセキュリティ・コンテンツデザインなどが対象で、加えて6,000人の採用計画を凍結し、7,000人をAIワークフロー関連職へ配置転換する。Zuckerberg氏は社内メモで「AI時代に成功は約束されない」と述べ、再編の必然性を強調した。",
+      "tag": "市場",
+      "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html",
+      "sourceLabel": "CNBC"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "Anthropic×ゲイツ財団、4年で2億ドルの保健・教育パートナーシップ",
+      "body": "Anthropicとゲイツ財団は5月14日、グラント・Claude利用クレジット・技術支援を合算した2億ドル規模・4年の連携を発表。低・中所得国の46億人を念頭に、ポリオ・HPV・妊娠高血圧腎症のワクチン/治療研究、マラリア・結核の治療配備予測、サブサハラ・アフリカやインドでの読み書き計算アプリ、米K-12向けの個別指導などにClaudeを投入する。",
       "tag": "AI SaaS",
-      "source": "https://www.anthropic.com/news/claude-for-small-business",
+      "source": "https://www.anthropic.com/news/gates-foundation-partnership",
       "sourceLabel": "Anthropic"
     },
     {
-      "date": "2026-05-12",
-      "title": "Google、AndroidをGemini中心の「インテリジェンス・システム」へ再設計",
-      "body": "Googleは5月12日、AndroidをGemini Intelligenceを核に再構築する方針を表明。AndroidエコシステムのSameer Samat氏は「OSからインテリジェンス・システムへの移行」と述べた。GeminiはGmailや画面情報を横断し、買い物カート作成や予約までを自律実行する。AppleのAI刷新を前にした布石となる。",
-      "tag": "エージェント",
-      "source": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
-      "sourceLabel": "CNBC"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "OpenAI、企業導入を担う「Deployment Company」を設立",
-      "body": "OpenAIは5月11日、企業のAIシステム構築・運用を支援するOpenAI Deployment Companyを立ち上げた。Forward Deployed Engineerの増強とTomoro買収で導入を加速する。同時にセキュリティ防御者向けの「GPT-5.5-Cyber」を限定プレビュー公開し、脆弱性トリアージやレッドチーム用途に提供を始めた。",
-      "tag": "モデル",
-      "source": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-      "sourceLabel": "CNBC"
-    },
-    {
-      "date": "2026-05",
-      "title": "Recursive Superintelligence、6.5億ドルを調達し評価額46.5億ドルに",
-      "body": "AIスタートアップのRecursive Superintelligenceがステルスを脱し、6.5億ドルの資金調達を発表。GVとGreycroftが主導し、AMD VenturesとNVIDIAも参加して評価額は46.5億ドルに達した。Q1に記録的水準だったAI投資の勢いが第2四半期も継続していることを示す案件となった。",
-      "tag": "市場",
-      "source": "https://techfundingnews.com/uk-ai-startup-recursive-hits-4-65b-valuation-with-650m-raise-from-nvidia-and-gv/",
-      "sourceLabel": "Tech Funding News"
-    },
-    {
-      "date": "2026-05",
-      "title": "JAL、羽田空港でヒューマノイドロボットの実証を開始",
-      "body": "日本航空はGMO AI & Roboticsと提携し、5月から羽田空港でヒューマノイドの実証運用を開始。Unitree基盤の機体2台（1台あたり約1.5万ドル）を導入し、手荷物の積み込みやコンテナ搬送、機内清掃など反復的で負荷の高い作業を担う。空港インフラに適合する人型形状が意図的に選ばれた。",
+      "date": "2026-05-13",
+      "title": "英Humanoid×シャエフラー、最大2,000台のヒューマノイド配備で拘束力ある契約",
+      "body": "英AIロボティクスのHumanoidは5月13日、独シャエフラーとの拘束力ある量産配備契約を発表。2032年までに同社のグローバル製造拠点で1,000〜2,000台の車輪型ヒューマノイドを展開する。実証から正式コミットへ移行する案件が増えており、自動車・航空・物流で「パイロットからプラットフォームへ」の節目を示す動きとなった。",
       "tag": "フィジカルAI",
       "source": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/",
       "sourceLabel": "KraneShares"
     },
     {
-      "date": "2026-05-08",
-      "title": "生成AI市場が三極化、Claudeのシェアが急伸",
-      "body": "ITmediaの分析によると、生成AI市場でClaudeのシェアが2026年1月の1.5％から4月に13.1％へ急伸した。Geminiは25％前後を維持して安定する一方、ChatGPTは45.3％から38.1％へ低下。単独首位から3サービスが競合する三極化の構図へ移行しつつある。",
+      "date": "2026-05-18",
+      "title": "AIスタートアップ調達、5月18日週はエンタープライズAIエージェントに集中投資",
+      "body": "5月18日週は大型ラウンドが連発。エンタープライズAIエージェントのDustがSeries Bで6,500万ドル、量子ネットワーキングのPhotonicがSeries Cで7,500万ドルを調達。極超音速防衛のDestinusが5,000万ドル、AI軍事センシングのArkeusが1,800万ドルを獲得した。SequoiaやBessemer、Microsoft M12、IN-Q-TELが名を連ね、Q1の記録的水準の投資ペースが第2四半期も継続している。",
       "tag": "市場",
-      "source": "https://www.itmedia.co.jp/enterprise/articles/2605/08/news033.html",
-      "sourceLabel": "ITmedia"
+      "source": "https://techstartups.com/2026/05/18/top-startup-and-tech-funding-news-may-18-2025/",
+      "sourceLabel": "Tech Startups"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Apple、WWDC直前に「genai.apple.com」を登録――Siri刷新を強く示唆",
+      "body": "Appleが5月23日に新サブドメイン「genai.apple.com」を登録したことが判明。6月8日のWWDC26基調講演でiOS 27と新Siriの発表が予定されており、画面文脈の理解やアプリ横断アクションを含む「Siri 2.0」が披露される見通し。プライベートクラウドコンピュート上でGoogleのGemini系モデルを活用するとの報道もあり、巨人連合の動きが一気に揃う。",
+      "tag": "モバイルAI",
+      "source": "https://9to5mac.com/2026/05/23/apple-new-gen-ai-subdomain-ahead-of-wwdc/",
+      "sourceLabel": "9to5Mac"
     }
   ]
 }
