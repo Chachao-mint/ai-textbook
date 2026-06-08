@@ -7,66 +7,66 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-05-25",
-  "nextUpdateHint": "2026-06-01",
-  "headline": "2026年5月第4週：Google I/Oで「Gemini Spark」発表、Karpathyが電撃移籍、Metaは8,000人削減――AI再編が一気に加速",
-  "overview": "5月19日のGoogle I/Oで、Gemini 3.5 Flashの一般提供と個人エージェント「Gemini Spark」が披露され、Gemini中心の生活OS化が一段と鮮明になった。同じ日、OpenAI共同創業者のAndrej KarpathyがAnthropic事前学習チームへの移籍を公表し、フロンティアモデル開発が「人材争奪」と「AIによるAI研究の自動化」の双方に広がっていることを示した。翌5月20日にはMetaが全社の約10%にあたる約8,000人を解雇しAIへの全面シフトを宣言。資金面ではエンタープライズAIエージェント関連が複数の大型調達を集め、フィジカルAIでも英Humanoidとシャエフラーが量産配備の拘束力ある契約を締結。AppleもWWDC（6月8日）直前に「genai.apple.com」を登録し、巨人各社の次の一手が同時に動き出した一週間となった。",
+  "lastUpdated": "2026-06-08",
+  "nextUpdateHint": "2026-06-15",
+  "headline": "2026年6月第2週：AnthropicがIPO申請、本日WWDCで「Siri 2.0」披露、Microsoft自社モデル投入、DeepSeekは7,400億円調達――巨人とフロンティアが同時に動く",
+  "overview": "6月1日、Anthropicが評価額9,650億ドルでSECに極秘でS-1を提出し、AI企業として史上最大級の上場準備に入った。本日6月8日のApple WWDCでは、GoogleのGeminiを基盤に据えた刷新版「Siri 2.0」の発表が見込まれ、巨人連合の構図が一段と鮮明になる。MicrosoftはBuildで自社モデル群「MAI」を投入しOpenAI依存の低減を狙い、中国DeepSeekはTencentらから74億ドルの大型調達を固めた。規制ではEUがAI法初の大幅改正（デジタル・オムニバス）で高リスク規制を延期しつつ新たな禁止行為を追加。フィジカルAIも工場実装が本格化し、市場・技術・規制・現場が同時に動いた一週間となった。",
   "items": [
     {
-      "date": "2026-05-19",
-      "title": "Google I/O 2026、Gemini 3.5 Flash一般提供と個人エージェント「Gemini Spark」を発表",
-      "body": "Googleは5月19日のI/Oで、Gemini 3.1 Proを上回りつつ4倍高速をうたうGemini 3.5 Flashを一般公開。Gemini App・検索・Antigravity 2.0・APIで即日展開した。同時にMCP連携で長尺タスクを24時間引き受ける個人エージェント「Gemini Spark」、Gmail/カレンダー/タスクを横断して翌日の動きを整理する「Daily Brief」、動画生成のGemini Omniも発表。",
-      "tag": "エージェント",
-      "source": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-      "sourceLabel": "Google Blog"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "OpenAI共同創業者Andrej Karpathy、Anthropicの事前学習チームへ移籍",
-      "body": "TeslaのFSDを率いた後にEureka Labsを創業していたAndrej Karpathyが5月19日、Anthropicに参加すると公表。事前学習リードのNick Joseph配下で、Claude自身を使って事前学習研究を自動化する新チームを立ち上げる。純粋な計算資源ではなく「AIによるAI研究」をフロンティア競争の主戦場に据えるAnthropicの賭けを象徴する人事となった。",
-      "tag": "モデル",
-      "source": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-      "sourceLabel": "TechCrunch"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Meta、約8,000人をレイオフし「AI最優先」へ大規模再編",
-      "body": "Metaは5月20日、グローバル従業員の約10%にあたる8,000人規模の人員削減を開始。インテグリティ・サイバーセキュリティ・コンテンツデザインなどが対象で、加えて6,000人の採用計画を凍結し、7,000人をAIワークフロー関連職へ配置転換する。Zuckerberg氏は社内メモで「AI時代に成功は約束されない」と述べ、再編の必然性を強調した。",
+      "date": "2026-06-01",
+      "title": "Anthropic、評価額9,650億ドルでSECに極秘IPO申請――AI史上最大級の上場へ",
+      "body": "Anthropicは6月1日、新規株式公開に向けたForm S-1の草案をSECに極秘提出したと発表。直前に完了したシリーズH（650億ドル調達）で評価額は9,650億ドルに達し、単独AI企業として最高水準となった。株数や価格は未定だが、同様に上場準備を進めるOpenAIに先行する形となり、AI業界の資本市場入りが現実味を帯びた。",
       "tag": "市場",
-      "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html",
-      "sourceLabel": "CNBC"
-    },
-    {
-      "date": "2026-05-14",
-      "title": "Anthropic×ゲイツ財団、4年で2億ドルの保健・教育パートナーシップ",
-      "body": "Anthropicとゲイツ財団は5月14日、グラント・Claude利用クレジット・技術支援を合算した2億ドル規模・4年の連携を発表。低・中所得国の46億人を念頭に、ポリオ・HPV・妊娠高血圧腎症のワクチン/治療研究、マラリア・結核の治療配備予測、サブサハラ・アフリカやインドでの読み書き計算アプリ、米K-12向けの個別指導などにClaudeを投入する。",
-      "tag": "AI SaaS",
-      "source": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "source": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "sourceLabel": "Anthropic"
     },
     {
-      "date": "2026-05-13",
-      "title": "英Humanoid×シャエフラー、最大2,000台のヒューマノイド配備で拘束力ある契約",
-      "body": "英AIロボティクスのHumanoidは5月13日、独シャエフラーとの拘束力ある量産配備契約を発表。2032年までに同社のグローバル製造拠点で1,000〜2,000台の車輪型ヒューマノイドを展開する。実証から正式コミットへ移行する案件が増えており、自動車・航空・物流で「パイロットからプラットフォームへ」の節目を示す動きとなった。",
-      "tag": "フィジカルAI",
-      "source": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/",
-      "sourceLabel": "KraneShares"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "AIスタートアップ調達、5月18日週はエンタープライズAIエージェントに集中投資",
-      "body": "5月18日週は大型ラウンドが連発。エンタープライズAIエージェントのDustがSeries Bで6,500万ドル、量子ネットワーキングのPhotonicがSeries Cで7,500万ドルを調達。極超音速防衛のDestinusが5,000万ドル、AI軍事センシングのArkeusが1,800万ドルを獲得した。SequoiaやBessemer、Microsoft M12、IN-Q-TELが名を連ね、Q1の記録的水準の投資ペースが第2四半期も継続している。",
-      "tag": "市場",
-      "source": "https://techstartups.com/2026/05/18/top-startup-and-tech-funding-news-may-18-2025/",
-      "sourceLabel": "Tech Startups"
-    },
-    {
-      "date": "2026-05-23",
-      "title": "Apple、WWDC直前に「genai.apple.com」を登録――Siri刷新を強く示唆",
-      "body": "Appleが5月23日に新サブドメイン「genai.apple.com」を登録したことが判明。6月8日のWWDC26基調講演でiOS 27と新Siriの発表が予定されており、画面文脈の理解やアプリ横断アクションを含む「Siri 2.0」が披露される見通し。プライベートクラウドコンピュート上でGoogleのGemini系モデルを活用するとの報道もあり、巨人連合の動きが一気に揃う。",
+      "date": "2026-06-08",
+      "title": "Apple WWDC 2026、本日開幕――Gemini基盤の刷新版「Siri 2.0」が最大の焦点",
+      "body": "Appleの開発者会議WWDC26が6月8日（米時間午前10時）に開幕。最大の目玉は大幅刷新される「Siri 2.0」で、Googleのカスタム版Geminiを基盤に、独立したチャットアプリとして文脈理解とアプリ横断アクションを強化する見通し。利用者はClaudeなど他社チャットへの受け渡しも選べる。iOS 27やApple Intelligence、Visual Intelligenceの拡充も予定される。",
       "tag": "モバイルAI",
-      "source": "https://9to5mac.com/2026/05/23/apple-new-gen-ai-subdomain-ahead-of-wwdc/",
-      "sourceLabel": "9to5Mac"
+      "source": "https://www.newsweek.com/wwdc-2026-everything-apple-is-expected-to-announce-on-june-8-12016937",
+      "sourceLabel": "Newsweek"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Microsoft、自社AIモデル群「MAI」をBuildで投入――OpenAI依存の低減を狙う",
+      "body": "MicrosoftはBuild 2026で、自社開発のAIモデル群を発表。説明文からアプリやサイトのソースコードを生成する「MAI-Code-1-Flash」を披露し、推論モデル「MAI-Thinking-1」はMicrosoft Foundryでプライベートプレビュー提供を開始した。OpenAIへの依存を下げ、開発者向けコストを引き下げる狙いで、巨人各社の自前モデル路線が一段と強まった。",
+      "tag": "モデル",
+      "source": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "sourceLabel": "CNBC"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "中国DeepSeek、Tencentらから約74億ドルを調達へ――オープンソースAGI研究に注力",
+      "body": "DeepSeekはTencentや政府系の国家AI産業投資基金、創業者Liang Wenfeng氏自身などから約74億ドル（約500億元）の調達を最終調整していると報じられた。評価額は約450億ドルとされる。経営陣は短期の商用化より「画期的なAI研究」に集中する方針を投資家に説明し、オープンソースモデルの開発とAGI追求を続けるとした。",
+      "tag": "市場",
+      "source": "https://www.pymnts.com/artificial-intelligence-2/2026/deepseek-nears-deal-to-raise-7-4-billion-for-open-source-ai/",
+      "sourceLabel": "PYMNTS"
+    },
+    {
+      "date": "2026-06",
+      "title": "フィジカルAIが工場実装フェーズへ――Figure 03が量産、BMW・JAL・シャエフラーで稼働",
+      "body": "ヒューマノイドが実証から実装へ移行している。Figure AIは新工場BotQで「Figure 03」を1時間に1台のペースで量産し始め、BMWのパイロットでは3万台超のX3生産に貢献して配置精度99%超を記録。日本航空は羽田空港で手荷物搬送や機内清掃の実証を進める。シャエフラーやTeslaなども導入を拡大し、現場配備が本格化している。",
+      "tag": "フィジカルAI",
+      "source": "https://memeburn.com/physical-ai-is-sending-humanoid-robots-to-real-factory-floors-in-2026/",
+      "sourceLabel": "Memeburn"
+    },
+    {
+      "date": "2026-05",
+      "title": "EU、AI法初の大幅改正で合意――高リスク規制を延期しつつ新たな禁止行為を追加",
+      "body": "EUは5月7日、AI法の初改正となる「デジタル・オムニバス」で暫定合意。Annex IIIの高リスクAI義務を2026年8月から2027年12月へ16か月延期するなど施行を緩和する一方、非同意の性的画像生成や児童性的虐待コンテンツの生成・操作を新たに禁止行為に追加（2026年12月施行）。安全性緩和と権利保護の両立を図る内容となった。",
+      "tag": "規制",
+      "source": "https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/",
+      "sourceLabel": "Inside Privacy"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "AI調達ラッシュ続く――Supabase・Suno・AlphaSenseが揃って大型調達",
+      "body": "今週も数億ドル規模のラウンドが続出。AIアプリ開発基盤のSupabaseが5億ドルを調達し評価額105億ドル、音楽生成のSunoが4億ドル（評価額54億ドル）、市場インテリジェンスのAlphaSenseが3.5億ドル（評価額75億ドル）を獲得した。脳に着想を得たAIを手がけるFlourishもBezos氏らから5億ドルを集め、エンタープライズとインフラ層への投資が加速している。",
+      "tag": "AI SaaS",
+      "source": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+      "sourceLabel": "Crunchbase News"
     }
   ]
 }
