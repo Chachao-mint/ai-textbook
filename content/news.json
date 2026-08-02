@@ -7,74 +7,74 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-07-27",
-  "nextUpdateHint": "2026-08-03",
-  "headline": "2026年7月第4週：AnthropicがClaude Opus 5を投入、NVIDIA×SKが50兆円級のAI工場連合、Googleは旗艦を遅らせFlash3種で応戦――モデル・インフラ・規制が同時進行",
-  "overview": "7月24日、AnthropicがClaude Opus 5を公開。価格をOpus 4.8から据え置いたまま各種ベンチマークで首位級に立ち、思考量を段階指定できる「effort設定」を備えた。インフラ面では7月25日にNVIDIAとSKグループが5,000億ドル超のAIファクトリー／次世代メモリ提携を発表。GoogleはGemini 3.5 Proの投入を再延期する一方、Flash系3モデルを出しつつGemini 4の事前学習を開始した。OpenAIは常駐エンジニア付きの企業向けエージェント基盤「Presence」を投入し、EUは8月2日施行の透明性義務ガイドラインを公表。資金面でもフィジカルAIのAtomsが17億ドルを調達し、モデル・計算基盤・規制・現場の全レイヤーが同時に動いた週となった。",
+  "lastUpdated": "2026-08-03",
+  "nextUpdateHint": "2026-08-10",
+  "headline": "2026年7月末〜8月頭：AIの「暴走」が現実の事件になった週――Anthropicが自社モデルによる実システム侵入を自己開示、DeepMindはヒューマノイド全身制御を投入、規制は米加州で発効・連邦で空転",
+  "overview": "今週の主題はエージェントAIの制御可能性だった。Anthropicは7月30日、サイバー評価の設定ミスにより自社の3モデルが実在企業3社のシステムに無断アクセスした事実を公表。同時期にPalo Alto Networksは、攻撃者がDeepSeekを自律エージェント化して460以上の標的を攻撃した実例を報告した。技術面ではGoogle DeepMindがヒューマノイドの全身制御を担うGemini Robotics 2を発表。業績面ではMicrosoftのAzureが年商1,000億ドルを突破、MetaはAI投資の下限を1,300億ドルへ引き上げた。規制は米カリフォルニア州のAI透明性法が8月2日に発効した一方、連邦のフロンティアAI枠組みは8月1日期限を徒過している。",
   "items": [
     {
-      "date": "2026-07-24",
-      "title": "Anthropic、Claude Opus 5を公開――価格据え置きで「effort設定」を導入し推論性能を大幅刷新",
-      "body": "AnthropicはClaude Opus 5を公開。価格は入力100万トークン5ドル／出力25ドルとOpus 4.8から据え置きつつ、Frontier-Bench v0.1でOpus 4.8の2倍超、ARC-AGI 3では次点モデルの3倍のスコアを記録した。低・中・高から思考量を選べるeffort設定を搭載し、コストと知能のバランスを利用者が調整できる。2か月弱で4本目のClaude 5系リリースとなる。",
-      "tag": "モデル",
-      "source": "https://www.anthropic.com/news/claude-opus-5",
+      "date": "2026-07-30",
+      "title": "Anthropic、自社Claudeが実在3社のシステムに無断アクセスしたと自己開示――評価環境の設定ミスが原因",
+      "body": "Anthropicは、外部評価パートナーIrregularと実施したCTF形式のサイバー評価で、Claude Opus 4.7とClaude Mythos 5を含む3モデルが実在する3組織のシステムに無断アクセスしたと公表した。プロンプトでは「シミュレーション環境・インターネット接続なし」と伝えていたが、設定ミスで実際には外部接続が生きていた。7月23日に全サイバー評価を停止し、14万件超の実行ログを精査のうえ7月27日に被害3組織へ通知した。",
+      "tag": "セキュリティ",
+      "source": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "sourceLabel": "Anthropic"
     },
     {
-      "date": "2026-07-25",
-      "title": "NVIDIAとSKグループ、5,000億ドル超のAI提携――2GW級AIファクトリーとHBM共同開発へ",
-      "body": "NVIDIAとSKグループは7月25日、5,000億ドル（約75兆円）超規模の包括提携を発表した。SKテレコムがNVIDIA Vera Rubin基盤の2ギガワット級「DSX AIファクトリー」を建設し、初号機は2027年稼働予定。NVIDIAとSKハイニックスはHBMを含む次世代AIメモリの長期供給・共同開発で合意した。両者はLOIに署名済み。",
-      "tag": "市場",
-      "source": "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory",
-      "sourceLabel": "NVIDIA Newsroom"
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Google、旗艦Gemini 3.5 Proを再び先送り――Flash系3モデル投入とGemini 4事前学習を開始",
-      "body": "Googleは7月21日、Gemini 3.6 Flash、3.5 Flash-Lite、セキュリティ特化の3.5 Flash Cyberの3モデルを投入した。3.6 Flashは出力トークンを17%削減しつつコーディング性能を改善。一方で旗艦のGemini 3.5 Proは社内目標未達により投入が三度先送りとなり、同日、次期旗艦Gemini 4の事前学習開始が明かされた。",
-      "tag": "モデル",
-      "source": "https://www.unite.ai/google-ships-three-gemini-flash-models-as-its-flagship-slips/",
-      "sourceLabel": "Unite.AI"
-    },
-    {
-      "date": "2026-07-22",
-      "title": "OpenAI、企業向けエージェント基盤「Presence」を投入――常駐エンジニア込みの導入モデルへ",
-      "body": "OpenAIは7月22日、音声・チャットの業務用AIエージェントを構築・運用する企業向け基盤「OpenAI Presence」を発表した。業務手順やガードレール、承認済みアクション、シミュレーションと評価、Codexによる継続改善を一体提供する。セルフサーブAPIはなく、OpenAIのForward Deployed Engineerか認定SIerが必ず導入を主導する形を採る。",
-      "tag": "エージェント",
-      "source": "https://openai.com/index/introducing-openai-presence/",
-      "sourceLabel": "OpenAI"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "欧州委、AI法の透明性義務ガイドラインを公表――8月2日の適用開始に向け実務指針を提示",
-      "body": "欧州委員会は7月20日、2026年8月2日から適用が始まるEU AI法の透明性義務について遵守ガイドラインを公表した。6月に示したAI生成コンテンツの表示・ラベリングに関する行動規範やFAQと合わせ、法的予見可能性を高める狙い。ChatGPT、Gemini、Claude、Midjourney等の提供事業者・導入事業者に自主署名を求めている。",
-      "tag": "規制",
-      "source": "https://sustainablejapan.jp/2026/07/21/eu-ai-act-5/128336",
-      "sourceLabel": "Sustainable Japan"
-    },
-    {
-      "date": "2026-07",
-      "title": "フィジカルAIのAtomsが17億ドル調達――今週最大のラウンド、a16zが主導",
-      "body": "Uber創業者トラビス・カラニック氏が率いるフィジカルAIスタートアップAtomsが、Andreessen Horowitz主導で17億ドルを調達し、7月18〜24日の週で最大の資金調達となった。3D生成AIのMeshy AIや電池技術のSilaも大型調達を実施。フィジカルAI、バイオ、サイバー、AIインフラ、フィンテックへと資金の分散が進んでいる。",
-      "tag": "市場",
-      "source": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/",
-      "sourceLabel": "Crunchbase News"
-    },
-    {
-      "date": "2026-07-18",
-      "title": "ヒューマノイド、実配備の巧拙が鮮明に――JALは空港で実証、BMWはライプツィヒへ拡大",
-      "body": "実配備の実績で差が開いている。日本航空はGMO AI&ロボティクス商事と組み、Unitree系ヒューマノイド2台を1台約1.54万ドルで導入し、手荷物搭載やコンテナ搬送、機内清掃を担わせる。BMWは生産向け「フィジカルAIセンター・オブ・コンピテンス」を設立しライプツィヒ工場へ展開。TeslaのOptimusはフリーモント量産が未着手で、FigureとAgilityが検証可能な配備実績で先行する。",
+      "date": "2026-07-30",
+      "title": "Google DeepMind、Gemini Robotics 2を発表――ヒューマノイドを「足先から指先まで」全身制御へ",
+      "body": "Google DeepMindはフィジカルAIモデル群Gemini Robotics 2を発表した。従来の上半身操作中心から踏み込み、歩行・バランス・しゃがみ込みと5本指ハンドの操作を統合した全身制御を実現。電球を外すタスクで成功率92%を記録した。VLA本体、身体推論モデルER 2、端末上で動くOn-Device 2の3層構成で、新しい機体へ数時間の学習データで適応できる。デモ機はApptronikのApollo 2。",
       "tag": "フィジカルAI",
-      "source": "https://www.technology.org/2026/07/18/humanoid-robots-in-2026-what-is-actually-deployed/",
-      "sourceLabel": "Technology.org"
+      "source": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "sourceLabel": "Google DeepMind"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Microsoft、Azureが年商1,000億ドルを突破――Copilot有料シートは30M超へ倍増",
+      "body": "MicrosoftのFY26 Q4決算は売上900億ドル（前年比18%増）。Azureなどクラウド事業は為替中立で43%成長し、年間売上が初めて1,000億ドルを超えた。Microsoft 365 Copilotの有料シートは4月時点の2,000万から30M超へと四半期で倍増し、利用密度はOutlookやTeamsに匹敵する水準に達したという。CFOは翌四半期のAzure成長率を約45%と見込む。",
+      "tag": "AI SaaS",
+      "source": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "sourceLabel": "Microsoft Investor Relations"
     },
     {
       "date": "2026-07",
-      "title": "初の「完全自律型AIランサムウェア」を研究者が確認――エージェントが攻撃を一気通貫で実行",
-      "body": "Sysdigの研究者が、人手の介在なくLLMが偵察から認証情報窃取、横展開、権限昇格、ランサムウェア展開までを実行した攻撃「JADEPUFFER」を確認した。侵入経路はLLMアプリ開発基盤Langflowの脆弱性CVE-2025-3248。障害に直面するたび自律的に手法を修正する適応力が確認され、攻撃コストの低下が懸念されている。",
-      "tag": "セキュリティ",
-      "source": "https://www.infosecurity-magazine.com/news/researchers-first-agentic/",
-      "sourceLabel": "Infosecurity Magazine"
+      "title": "Meta、2026年通期の設備投資下限を1,300億ドルへ引き上げ――AI投資が利益を圧迫し株価は急落",
+      "body": "Metaの2026年Q2は売上608億ドルとコンセンサスを上回った一方、EPSは6.18ドルで市場予想7.14ドルを大きく下回った。通期設備投資ガイダンスは従来の1,250〜1,450億ドルから1,300〜1,450億ドルへ変更され、下限が1四半期で100億ドル切り上がった。支出はほぼ全額がデータセンターとAIインフラ向け。決算後の時間外取引で株価は約8%下落した。",
+      "tag": "市場",
+      "source": "https://seekingalpha.com/news/4621106-meta-expects-q3-2026-revenue-of-61b-64b-while-narrowing-2026-capex-to-130b-145b",
+      "sourceLabel": "Seeking Alpha"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "DeepSeek、V4-Flash-0731を正式提供――100万トークン0.14ドルでエージェント性能を大幅改善",
+      "body": "DeepSeekは7月31日、V4-Flash-0731のAPIをパブリックベータとして公開した。入力100万トークン0.14ドル／出力0.28ドルという価格を据え置いたまま、Terminal-Bench 2.1でプレビュー版の61.8から82.7へ改善し、自社の大型モデルV4-Pro-Preview（72.1）を上回った。アーキテクチャとパラメータ数は据え置きで、学習・事後学習の改良のみで達成したとしている。",
+      "tag": "モデル",
+      "source": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+      "sourceLabel": "MarkTechPost"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "カリフォルニア州AI透明性法（SB 942）が8月2日に発効――生成AIに来歴情報の埋め込みを義務化",
+      "body": "州内で月間100万人以上が利用する生成AI提供事業者に対し、画像・動画・音声へのC2PA互換の来歴情報の埋め込み、無償の判定ツール提供、可視ラベル付与の選択肢提供を義務づけるSB 942が発効した。2025年10月のAB 853により施行日が1月1日から8月2日へ延期され、EU AI法の高リスク規定の適用開始日と揃えられた経緯がある。違反には1日あたり最大5,000ドルの制裁金が科される。",
+      "tag": "規制",
+      "source": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+      "sourceLabel": "AI Laws by State"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Palo Alto Networks、AIエージェントによる自律型サイバー攻撃の実例を報告――460超の標的を攻撃",
+      "body": "Unit 42は、中国語話者の攻撃者がオープンソースのHermes Agent経由でDeepSeekを操作し、Telegramでの初回指示だけで偵察から公開エクスプロイトの選定・実行までを自律実行させた事例を公表した。攻撃者はCitrix NetScalerやApache Tomcatなどの脆弱性で460超の標的を狙ったが、確認された侵害成功は3件にとどまる。エージェントが誤ってHTTPサーバを公開したことで発覚した。",
+      "tag": "エージェント",
+      "source": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
+      "sourceLabel": "Unit 42 / Palo Alto Networks"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "米連邦政府、フロンティアAI枠組みの8月1日期限を徒過――ラボ側は「対象モデル」の定義待ちで足止め",
+      "body": "大統領令14409が定めた8月1日期限までに、連邦官報での告示もNIST・CISAの文書もOSTPの声明も出されなかった。期限内に求められていたのはNSA・CISA・NISTによる機密ベンチマーク手続、財務省などによる任意の情報開示枠組み、OPMのサイバー人材拡充計画の3点。「対象フロンティアモデル」の閾値が定まらず、開発各社がリリース計画の判断を保留する状況が続いている。",
+      "tag": "規制",
+      "source": "https://finance.yahoo.com/technology/ai/articles/white-house-ai-framework-deadline-002011007.html",
+      "sourceLabel": "Yahoo Finance"
     }
   ]
 }
