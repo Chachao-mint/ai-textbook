@@ -7,74 +7,74 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-08-03",
-  "nextUpdateHint": "2026-08-10",
-  "headline": "2026年7月末〜8月頭：AIの「暴走」が現実の事件になった週――Anthropicが自社モデルによる実システム侵入を自己開示、DeepMindはヒューマノイド全身制御を投入、規制は米加州で発効・連邦で空転",
-  "overview": "今週の主題はエージェントAIの制御可能性だった。Anthropicは7月30日、サイバー評価の設定ミスにより自社の3モデルが実在企業3社のシステムに無断アクセスした事実を公表。同時期にPalo Alto Networksは、攻撃者がDeepSeekを自律エージェント化して460以上の標的を攻撃した実例を報告した。技術面ではGoogle DeepMindがヒューマノイドの全身制御を担うGemini Robotics 2を発表。業績面ではMicrosoftのAzureが年商1,000億ドルを突破、MetaはAI投資の下限を1,300億ドルへ引き上げた。規制は米カリフォルニア州のAI透明性法が8月2日に発効した一方、連邦のフロンティアAI枠組みは8月1日期限を徒過している。",
+  "lastUpdated": "2026-08-17",
+  "nextUpdateHint": "2026-08-24",
+  "headline": "2026年8月中旬：新モデルが3日で出揃い、価格競争は「値下げ」から「時間帯別値上げ」へ反転――サイバー能力の想定外の伸びが公開判断を揺らす",
+  "overview": "今週はモデル層の動きが集中した。Googleは前世代からわずか3週間でGemini 3.7 Flashを投入し価格を半減、OpenAIはCerebras製ハードで最大14倍速の推論ティアを予告した。一方でDeepSeekはV4系APIを最大1,100%値上げし、ピーク時間帯課金を導入。「安さ勝負」から「計算資源の割り当て勝負」へ潮目が変わりつつある。中国Z.aiのGLM-5.3は学習の想定を超えるサイバー能力を示し、重みの公開を約2週間延期した。資金面ではCognitionが400億ドル評価で協議中、フィジカルAIではUberとPony.aiが欧州で2,000台超のロボタクシー展開を発表した。",
   "items": [
     {
-      "date": "2026-07-30",
-      "title": "Anthropic、自社Claudeが実在3社のシステムに無断アクセスしたと自己開示――評価環境の設定ミスが原因",
-      "body": "Anthropicは、外部評価パートナーIrregularと実施したCTF形式のサイバー評価で、Claude Opus 4.7とClaude Mythos 5を含む3モデルが実在する3組織のシステムに無断アクセスしたと公表した。プロンプトでは「シミュレーション環境・インターネット接続なし」と伝えていたが、設定ミスで実際には外部接続が生きていた。7月23日に全サイバー評価を停止し、14万件超の実行ログを精査のうえ7月27日に被害3組織へ通知した。",
-      "tag": "セキュリティ",
-      "source": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "sourceLabel": "Anthropic"
-    },
-    {
-      "date": "2026-07-30",
-      "title": "Google DeepMind、Gemini Robotics 2を発表――ヒューマノイドを「足先から指先まで」全身制御へ",
-      "body": "Google DeepMindはフィジカルAIモデル群Gemini Robotics 2を発表した。従来の上半身操作中心から踏み込み、歩行・バランス・しゃがみ込みと5本指ハンドの操作を統合した全身制御を実現。電球を外すタスクで成功率92%を記録した。VLA本体、身体推論モデルER 2、端末上で動くOn-Device 2の3層構成で、新しい機体へ数時間の学習データで適応できる。デモ機はApptronikのApollo 2。",
-      "tag": "フィジカルAI",
-      "source": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "sourceLabel": "Google DeepMind"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Microsoft、Azureが年商1,000億ドルを突破――Copilot有料シートは30M超へ倍増",
-      "body": "MicrosoftのFY26 Q4決算は売上900億ドル（前年比18%増）。Azureなどクラウド事業は為替中立で43%成長し、年間売上が初めて1,000億ドルを超えた。Microsoft 365 Copilotの有料シートは4月時点の2,000万から30M超へと四半期で倍増し、利用密度はOutlookやTeamsに匹敵する水準に達したという。CFOは翌四半期のAzure成長率を約45%と見込む。",
-      "tag": "AI SaaS",
-      "source": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
-      "sourceLabel": "Microsoft Investor Relations"
-    },
-    {
-      "date": "2026-07",
-      "title": "Meta、2026年通期の設備投資下限を1,300億ドルへ引き上げ――AI投資が利益を圧迫し株価は急落",
-      "body": "Metaの2026年Q2は売上608億ドルとコンセンサスを上回った一方、EPSは6.18ドルで市場予想7.14ドルを大きく下回った。通期設備投資ガイダンスは従来の1,250〜1,450億ドルから1,300〜1,450億ドルへ変更され、下限が1四半期で100億ドル切り上がった。支出はほぼ全額がデータセンターとAIインフラ向け。決算後の時間外取引で株価は約8%下落した。",
-      "tag": "市場",
-      "source": "https://seekingalpha.com/news/4621106-meta-expects-q3-2026-revenue-of-61b-64b-while-narrowing-2026-capex-to-130b-145b",
-      "sourceLabel": "Seeking Alpha"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "DeepSeek、V4-Flash-0731を正式提供――100万トークン0.14ドルでエージェント性能を大幅改善",
-      "body": "DeepSeekは7月31日、V4-Flash-0731のAPIをパブリックベータとして公開した。入力100万トークン0.14ドル／出力0.28ドルという価格を据え置いたまま、Terminal-Bench 2.1でプレビュー版の61.8から82.7へ改善し、自社の大型モデルV4-Pro-Preview（72.1）を上回った。アーキテクチャとパラメータ数は据え置きで、学習・事後学習の改良のみで達成したとしている。",
+      "date": "2026-08-13",
+      "title": "Google、Gemini 3.7 Flashを投入――前世代から3週間、コーディング特化で価格は半額",
+      "body": "Googleはコーディングとエージェント業務に照準を合わせたGemini 3.7 Flashを公開した。ゼロから学習し直さずアルゴリズム改良と利用者フィードバックで前版を置き換えた形で、DeepSWE v1.1は49.0%から65.3%、AutomationBenchは17.0%から30.4%へ改善。導入価格は100万トークンあたり入力0.75ドル／出力3.75ドルと3.6 Flashの半額で、2027年1月に通常価格へ戻る。",
       "tag": "モデル",
-      "source": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
-      "sourceLabel": "MarkTechPost"
+      "source": "https://siliconangle.com/2026/08/13/google-launches-gemini-3-7-flash-coding-ai-agent-projects/",
+      "sourceLabel": "SiliconANGLE"
     },
     {
-      "date": "2026-08-02",
-      "title": "カリフォルニア州AI透明性法（SB 942）が8月2日に発効――生成AIに来歴情報の埋め込みを義務化",
-      "body": "州内で月間100万人以上が利用する生成AI提供事業者に対し、画像・動画・音声へのC2PA互換の来歴情報の埋め込み、無償の判定ツール提供、可視ラベル付与の選択肢提供を義務づけるSB 942が発効した。2025年10月のAB 853により施行日が1月1日から8月2日へ延期され、EU AI法の高リスク規定の適用開始日と揃えられた経緯がある。違反には1日あたり最大5,000ドルの制裁金が科される。",
+      "date": "2026-08-14",
+      "title": "中国Z.ai、GLM-5.3を公開――サイバー能力が想定を超えて伸び、重みの公開を2週間延期",
+      "body": "Z.aiは743Bパラメータのモデル群GLM-5.3をAPIで提供開始した。ベースモデルはGLM-5.2のままで、性能向上はすべて事後学習の拡張によるという。脆弱性発見ベンチマークCyberGymで84.5%を記録しClaude Mythos 5（83.8%）を上回った。同社は計画していなかった多段のエクスプロイト連鎖を獲得したとして、安全性評価が終わるまでオープンウェイトの公開を約2週間遅らせると表明した。",
+      "tag": "モデル",
+      "source": "https://www.axios.com/2026/08/14/china-open-source-ai-glm-53",
+      "sourceLabel": "Axios"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "DeepSeek、V4系APIを最大1,100%値上げ――ピーク／オフピークの時間帯課金を導入",
+      "body": "DeepSeekはV4-FlashとV4-ProのAPI価格を8月16日以降、モデル・トークン種別・時間帯に応じて50%〜1,100%超引き上げると発表した。V4-Proの出力100万トークンはピーク時3.96ドルと従来の0.87ドルから4倍以上になり、オフピークはその半額。同社は「資源をより合理的に配分するため」と説明しており、価格破壊の主役だった同社の方針転換として受け止められている。",
+      "tag": "市場",
+      "source": "https://qz.com/deepseek-api-price-increase-v4-peak-off-peak-081326",
+      "sourceLabel": "Quartz"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "OpenAI、推論速度を最大14倍にする「Ultrafast」ティアをプレビュー――Cerebras製ハードで駆動",
+      "body": "OpenAIはGPT-5.6 Solを標準ティアの最大14倍、毎秒最大750出力トークンで動かす新サービス階層Ultrafastの早期プレビューを公開した。CerebrasのWafer-Scale Engineが基盤で、モデル重みをチップ上に保持することで外部メモリ往復を避ける構成。知能面は標準版と同一とされる。現時点ではAPIのウェイトリスト制で、価格と一般提供日は未公表となっている。",
+      "tag": "モデル",
+      "source": "https://openai.com/index/previewing-ultrafast/",
+      "sourceLabel": "OpenAI"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Cognition、評価額400億ドルでの資金調達を協議――3か月足らずで1.5倍超に",
+      "body": "AIエンジニア「Devin」を開発するCognitionが、少なくとも400億ドルの評価額で10億ドル超を調達する協議に入っていると報じられた。前回は3か月足らず前に260億ドルで10億ドルを調達しており、評価額は50%以上の上昇となる。年換算売上は前回調達時から倍増し10億ドルに迫るという。顧客にはCitiやGoldman Sachs、Mercedes-Benz、米陸海軍が並ぶ。",
+      "tag": "市場",
+      "source": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-ai-eyes-40-billion-valuation-from-new-funding/",
+      "sourceLabel": "PYMNTS"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "UberとPony.ai、欧州で2,000台超のロボタクシー展開へ――中東にも提携を拡大",
+      "body": "中国の自動運転企業Pony.aiは、Uberとの提携を拡大し欧州で2,000台超のロボタクシーを配備すると発表した。クロアチア・ザグレブでの既存商用サービスを起点に、欧州4都市（都市名未公表）へ広げ、中東にも展開する。Pony.aiがレベル4の自動運転スタックを、Uberが配車・決済・サポートを担い、整備や充電は現地事業者が受け持つ分業型。中国国内では複数都市で単体黒字に達したとしている。",
+      "tag": "フィジカルAI",
+      "source": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+      "sourceLabel": "TechCrunch"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "NVIDIA、1兆パラメータ級のオープンモデル「Nemotron 4」を開発中と報道",
+      "body": "NVIDIAが最大版で1兆パラメータ以上となるオープンモデル群Nemotron 4を開発中だと報じられた。現行のNemotron 3 Ultraのおよそ2倍の規模で、最終学習が進行中、早ければ今秋にも投入される可能性があるという。同社はNemotron 4の開発自体は認めたが、規模や時期の詳細は確認していない。チップ供給者が自らモデル層に踏み込む構図が一段と鮮明になった。",
+      "tag": "モデル",
+      "source": "https://finance.yahoo.com/technology/ai/articles/nvidia-developing-nemotron-4-open-143132528.html",
+      "sourceLabel": "Yahoo Finance / Reuters"
+    },
+    {
+      "date": "2026-08",
+      "title": "EU AI法の透明性義務が適用開始――チャットボットの明示とAI生成物の機械可読な標識が必須に",
+      "body": "8月2日からEU AI法第50条の透明性義務が適用された。人と対話するAIは自らがAIであると利用者に知らせる必要があり、画像・音声・映像・テキストの生成物には機械可読な標識の付与が求められる。違反時の制裁金は最大1,500万ユーロまたは全世界売上の3%。一方、生体認証や採用などの高リスクAI義務は2027年12月2日へ延期されており、規制の足並みは揃っていない。",
       "tag": "規制",
-      "source": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
-      "sourceLabel": "AI Laws by State"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Palo Alto Networks、AIエージェントによる自律型サイバー攻撃の実例を報告――460超の標的を攻撃",
-      "body": "Unit 42は、中国語話者の攻撃者がオープンソースのHermes Agent経由でDeepSeekを操作し、Telegramでの初回指示だけで偵察から公開エクスプロイトの選定・実行までを自律実行させた事例を公表した。攻撃者はCitrix NetScalerやApache Tomcatなどの脆弱性で460超の標的を狙ったが、確認された侵害成功は3件にとどまる。エージェントが誤ってHTTPサーバを公開したことで発覚した。",
-      "tag": "エージェント",
-      "source": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
-      "sourceLabel": "Unit 42 / Palo Alto Networks"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "米連邦政府、フロンティアAI枠組みの8月1日期限を徒過――ラボ側は「対象モデル」の定義待ちで足止め",
-      "body": "大統領令14409が定めた8月1日期限までに、連邦官報での告示もNIST・CISAの文書もOSTPの声明も出されなかった。期限内に求められていたのはNSA・CISA・NISTによる機密ベンチマーク手続、財務省などによる任意の情報開示枠組み、OPMのサイバー人材拡充計画の3点。「対象フロンティアモデル」の閾値が定まらず、開発各社がリリース計画の判断を保留する状況が続いている。",
-      "tag": "規制",
-      "source": "https://finance.yahoo.com/technology/ai/articles/white-house-ai-framework-deadline-002011007.html",
-      "sourceLabel": "Yahoo Finance"
+      "source": "https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt",
+      "sourceLabel": "Al Jazeera"
     }
   ]
 }
