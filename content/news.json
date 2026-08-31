@@ -7,74 +7,66 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-08-17",
-  "nextUpdateHint": "2026-08-24",
-  "headline": "2026年8月中旬：新モデルが3日で出揃い、価格競争は「値下げ」から「時間帯別値上げ」へ反転――サイバー能力の想定外の伸びが公開判断を揺らす",
-  "overview": "今週はモデル層の動きが集中した。Googleは前世代からわずか3週間でGemini 3.7 Flashを投入し価格を半減、OpenAIはCerebras製ハードで最大14倍速の推論ティアを予告した。一方でDeepSeekはV4系APIを最大1,100%値上げし、ピーク時間帯課金を導入。「安さ勝負」から「計算資源の割り当て勝負」へ潮目が変わりつつある。中国Z.aiのGLM-5.3は学習の想定を超えるサイバー能力を示し、重みの公開を約2週間延期した。資金面ではCognitionが400億ドル評価で協議中、フィジカルAIではUberとPony.aiが欧州で2,000台超のロボタクシー展開を発表した。",
+  "lastUpdated": "2026-08-31",
+  "nextUpdateHint": "2026-09-07",
+  "headline": "2026年8月末：主要AI企業117社が「AIサイバー攻撃への防衛猶予は数か月」と共同警告――同じ週にオープンウェイトの大型モデルが一斉公開",
+  "overview": "今週最大の出来事は、OpenAI・Anthropic・Google・Microsoftなど117社による共同書簡だ。AIによるサイバー攻撃が数か月のうちに爆発的に増えるとして、政府と企業に「防衛側の総力戦」を呼びかけた。モデル層では中国勢の攻勢が続き、AlibabaのQwen3.8-Flash-NextとZ.aiのGLM-5.3-Flashが同じ8月26日にオープンウェイトで公開され、いずれも一部ベンチマークで欧米のフラッグシップに並んだ。同日NVIDIAは四半期売上962億ドル（前年比2.1倍）を発表。ロボティクスのGeneralistは評価額30億ドルに達した。",
   "items": [
     {
-      "date": "2026-08-13",
-      "title": "Google、Gemini 3.7 Flashを投入――前世代から3週間、コーディング特化で価格は半額",
-      "body": "Googleはコーディングとエージェント業務に照準を合わせたGemini 3.7 Flashを公開した。ゼロから学習し直さずアルゴリズム改良と利用者フィードバックで前版を置き換えた形で、DeepSWE v1.1は49.0%から65.3%、AutomationBenchは17.0%から30.4%へ改善。導入価格は100万トークンあたり入力0.75ドル／出力3.75ドルと3.6 Flashの半額で、2027年1月に通常価格へ戻る。",
-      "tag": "モデル",
-      "source": "https://siliconangle.com/2026/08/13/google-launches-gemini-3-7-flash-coding-ai-agent-projects/",
-      "sourceLabel": "SiliconANGLE"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "中国Z.ai、GLM-5.3を公開――サイバー能力が想定を超えて伸び、重みの公開を2週間延期",
-      "body": "Z.aiは743Bパラメータのモデル群GLM-5.3をAPIで提供開始した。ベースモデルはGLM-5.2のままで、性能向上はすべて事後学習の拡張によるという。脆弱性発見ベンチマークCyberGymで84.5%を記録しClaude Mythos 5（83.8%）を上回った。同社は計画していなかった多段のエクスプロイト連鎖を獲得したとして、安全性評価が終わるまでオープンウェイトの公開を約2週間遅らせると表明した。",
-      "tag": "モデル",
-      "source": "https://www.axios.com/2026/08/14/china-open-source-ai-glm-53",
-      "sourceLabel": "Axios"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "DeepSeek、V4系APIを最大1,100%値上げ――ピーク／オフピークの時間帯課金を導入",
-      "body": "DeepSeekはV4-FlashとV4-ProのAPI価格を8月16日以降、モデル・トークン種別・時間帯に応じて50%〜1,100%超引き上げると発表した。V4-Proの出力100万トークンはピーク時3.96ドルと従来の0.87ドルから4倍以上になり、オフピークはその半額。同社は「資源をより合理的に配分するため」と説明しており、価格破壊の主役だった同社の方針転換として受け止められている。",
-      "tag": "市場",
-      "source": "https://qz.com/deepseek-api-price-increase-v4-peak-off-peak-081326",
-      "sourceLabel": "Quartz"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "OpenAI、推論速度を最大14倍にする「Ultrafast」ティアをプレビュー――Cerebras製ハードで駆動",
-      "body": "OpenAIはGPT-5.6 Solを標準ティアの最大14倍、毎秒最大750出力トークンで動かす新サービス階層Ultrafastの早期プレビューを公開した。CerebrasのWafer-Scale Engineが基盤で、モデル重みをチップ上に保持することで外部メモリ往復を避ける構成。知能面は標準版と同一とされる。現時点ではAPIのウェイトリスト制で、価格と一般提供日は未公表となっている。",
-      "tag": "モデル",
-      "source": "https://openai.com/index/previewing-ultrafast/",
-      "sourceLabel": "OpenAI"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Cognition、評価額400億ドルでの資金調達を協議――3か月足らずで1.5倍超に",
-      "body": "AIエンジニア「Devin」を開発するCognitionが、少なくとも400億ドルの評価額で10億ドル超を調達する協議に入っていると報じられた。前回は3か月足らず前に260億ドルで10億ドルを調達しており、評価額は50%以上の上昇となる。年換算売上は前回調達時から倍増し10億ドルに迫るという。顧客にはCitiやGoldman Sachs、Mercedes-Benz、米陸海軍が並ぶ。",
-      "tag": "市場",
-      "source": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-ai-eyes-40-billion-valuation-from-new-funding/",
-      "sourceLabel": "PYMNTS"
-    },
-    {
-      "date": "2026-08-14",
-      "title": "UberとPony.ai、欧州で2,000台超のロボタクシー展開へ――中東にも提携を拡大",
-      "body": "中国の自動運転企業Pony.aiは、Uberとの提携を拡大し欧州で2,000台超のロボタクシーを配備すると発表した。クロアチア・ザグレブでの既存商用サービスを起点に、欧州4都市（都市名未公表）へ広げ、中東にも展開する。Pony.aiがレベル4の自動運転スタックを、Uberが配車・決済・サポートを担い、整備や充電は現地事業者が受け持つ分業型。中国国内では複数都市で単体黒字に達したとしている。",
-      "tag": "フィジカルAI",
-      "source": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+      "date": "2026-08-27",
+      "title": "OpenAI・Anthropic・Googleなど117社が共同書簡――「AIサイバー攻撃への備えは数か月しか猶予がない」",
+      "body": "OpenAI、Anthropic、Google、Microsoft、Amazon、Cloudflare、CrowdStrikeに加え、Mastercard、Visa、GM、Shopifyなど計117社が共同書簡を公表した。「今後数か月でAIを用いたサイバー攻撃が急速に広がる」とし、政府・企業に防衛側の緊急増強を求めた。病院や浄水場といった重要インフラが標的になるとの懸念も明記されている。",
+      "tag": "規制",
+      "source": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "sourceLabel": "TechCrunch"
     },
     {
-      "date": "2026-08-11",
-      "title": "NVIDIA、1兆パラメータ級のオープンモデル「Nemotron 4」を開発中と報道",
-      "body": "NVIDIAが最大版で1兆パラメータ以上となるオープンモデル群Nemotron 4を開発中だと報じられた。現行のNemotron 3 Ultraのおよそ2倍の規模で、最終学習が進行中、早ければ今秋にも投入される可能性があるという。同社はNemotron 4の開発自体は認めたが、規模や時期の詳細は確認していない。チップ供給者が自らモデル層に踏み込む構図が一段と鮮明になった。",
-      "tag": "モデル",
-      "source": "https://finance.yahoo.com/technology/ai/articles/nvidia-developing-nemotron-4-open-143132528.html",
-      "sourceLabel": "Yahoo Finance / Reuters"
+      "date": "2026-08-26",
+      "title": "NVIDIA、四半期売上962億ドルで前年比2.1倍――データセンターが890億ドルと全体の92%",
+      "body": "NVIDIAは2027年度第2四半期（7月26日締め）の売上高が962億ドル、前年同期比106%増になったと発表した。データセンター部門は890億ドルで全体の約92%を占める。GAAP希薄化後EPSは2.46ドル、粗利益率は75.0%。次四半期は1,080億ドル（±2%）を見込んでおり、AIインフラ投資の減速は当面見られない。",
+      "tag": "市場",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+      "sourceLabel": "NVIDIA IR"
     },
     {
-      "date": "2026-08",
-      "title": "EU AI法の透明性義務が適用開始――チャットボットの明示とAI生成物の機械可読な標識が必須に",
-      "body": "8月2日からEU AI法第50条の透明性義務が適用された。人と対話するAIは自らがAIであると利用者に知らせる必要があり、画像・音声・映像・テキストの生成物には機械可読な標識の付与が求められる。違反時の制裁金は最大1,500万ユーロまたは全世界売上の3%。一方、生体認証や採用などの高リスクAI義務は2027年12月2日へ延期されており、規制の足並みは揃っていない。",
-      "tag": "規制",
-      "source": "https://www.aljazeera.com/news/2026/8/6/what-came-into-force-with-the-eus-ai-act-this-week-and-what-didnt",
-      "sourceLabel": "Al Jazeera"
+      "date": "2026-08-26",
+      "title": "Alibaba、Qwen4アーキテクチャを先行公開――Qwen3.8-Flash-Nextをオープンウェイトで提供",
+      "body": "Alibaba のQwenチームは、次世代Qwen4のアーキテクチャを先取りした125BのMoEモデル（アクティブ6B）をHugging Face等でオープンウェイト公開した。ネイティブ262Kコンテキストで、YaRN併用により1Mまで拡張可能。SWE-bench ProやCoWorkBenchなど複数の指標でClaude Opus 4.6を上回ったと報告している。API価格は入力100万トークン0.16ドル。",
+      "tag": "モデル",
+      "source": "https://technode.com/2026/08/26/alibabas-qwen-to-open-source-qwen3-8-flash-next-previewing-qwen4-architecture/",
+      "sourceLabel": "TechNode"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Z.ai、GLM-5.3-FlashをMITライセンスで公開――320B MoE・1Mコンテキストのネイティブ多モーダル",
+      "body": "Z.aiはGLM-5シリーズ初のネイティブ多モーダルモデルGLM-5.3-Flashを公開した。総パラメータ320B・アクティブ18BのMoEで、テキスト・画像・映像入力と100万トークンのコンテキストに対応する。ハイブリッドな疎／線形アテンションを採用し、30Tトークンの多モーダル事前学習を実施。重みはMITライセンスで配布され、API価格は入力100万トークン0.15ドル。",
+      "tag": "モデル",
+      "source": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/",
+      "sourceLabel": "MarkTechPost"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Anthropic、Claude Cowork にブラウザを内蔵――ユーザーのブラウザを使わずWeb作業を完結",
+      "body": "Anthropicはデスクトップ版Claude Cowork に、Chromiumベースのブラウザを組み込んだ。Webを伴うタスクではサイドパネル内で独立したブラウザが開き、Claudeが閲覧・クリック・フォーム入力を代行する。利用者本人のタブ・履歴・保存済みパスワードには一切アクセスせず、タスクごとに初期状態から開始する分離設計。Enterpriseで先行提供し、Pro／Max／Teamへ順次展開する。",
+      "tag": "エージェント",
+      "source": "https://claude.com/blog/cowork-built-in-browser",
+      "sourceLabel": "Anthropic"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "ロボット基盤モデルのGeneralist、評価額30億ドルへ――3〜12秒の動画実演から新タスクを学習",
+      "body": "元Google DeepMindの研究者らが2024年に創業したGeneralistが、8VC主導で約2億ドルを追加調達し、6月の4億ドルと合わせSeries Bは総額6億ドル、評価額は30億ドルに達した。同社のGen 1.5は複数種類のロボットで動作する基盤モデルで、3〜12秒程度の短い動画実演から新しい作業を習得できる。NVIDIAやBezos Expeditions、Fei-Fei Li氏も出資している。",
+      "tag": "フィジカルAI",
+      "source": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "sourceLabel": "TechCrunch"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "個人向けAIアシスタント Instinct、評価額25億ドルで2.5億ドル調達――創業1年、23歳創業者",
+      "body": "テキストや通話で日常のタスクを代行するAIアシスタントInstinctが、Index VenturesとBenchmarkの共同リードでSeries B 2.5億ドルを調達し、累計調達額は3.5億ドル、評価額は25億ドルとなった。創業は約1年前、創業者は23歳のNoah Shinn氏。旅行計画や食材管理、サブスク解約などに使われる一方、広範な権限要求をめぐるプライバシー上の懸念も指摘されている。",
+      "tag": "AI SaaS",
+      "source": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "sourceLabel": "TechCrunch"
     }
   ]
 }
