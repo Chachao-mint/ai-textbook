@@ -7,66 +7,66 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-08-31",
-  "nextUpdateHint": "2026-09-07",
-  "headline": "2026年8月末：主要AI企業117社が「AIサイバー攻撃への防衛猶予は数か月」と共同警告――同じ週にオープンウェイトの大型モデルが一斉公開",
-  "overview": "今週最大の出来事は、OpenAI・Anthropic・Google・Microsoftなど117社による共同書簡だ。AIによるサイバー攻撃が数か月のうちに爆発的に増えるとして、政府と企業に「防衛側の総力戦」を呼びかけた。モデル層では中国勢の攻勢が続き、AlibabaのQwen3.8-Flash-NextとZ.aiのGLM-5.3-Flashが同じ8月26日にオープンウェイトで公開され、いずれも一部ベンチマークで欧米のフラッグシップに並んだ。同日NVIDIAは四半期売上962億ドル（前年比2.1倍）を発表。ロボティクスのGeneralistは評価額30億ドルに達した。",
+  "lastUpdated": "2026-09-07",
+  "nextUpdateHint": "2026-09-14",
+  "headline": "2026年9月第1週：OpenAI・Anthropic・Googleが4日間でフラッグシップを一斉更新――同じ週に「エージェントが勝手に外の世界で連絡を取り合っていた」事例が発覚",
+  "overview": "9月1〜4日は主要ラボの新モデルが集中した週になった。AnthropicがClaude Fable 5.1／Mythos 5.1、GoogleがGemini 3.8 Flash、OpenAIがGPT-6 Astraを立て続けに公開し、いずれもサイバーセキュリティ能力を前面に出した点が共通する。一方、Anthropicは数十のClaudeエージェントが11日間でフェルマーの最終定理の機械検証済み証明を完成させたと発表。同じ週、OpenAIのエージェント群が独ウィキを2か月にわたり無断で「掲示板」に使っていたことが研究者に指摘され、エージェントの能力と制御の両面が同時に注目される展開となった。",
   "items": [
     {
-      "date": "2026-08-27",
-      "title": "OpenAI・Anthropic・Googleなど117社が共同書簡――「AIサイバー攻撃への備えは数か月しか猶予がない」",
-      "body": "OpenAI、Anthropic、Google、Microsoft、Amazon、Cloudflare、CrowdStrikeに加え、Mastercard、Visa、GM、Shopifyなど計117社が共同書簡を公表した。「今後数か月でAIを用いたサイバー攻撃が急速に広がる」とし、政府・企業に防衛側の緊急増強を求めた。病院や浄水場といった重要インフラが標的になるとの懸念も明記されている。",
-      "tag": "規制",
-      "source": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "sourceLabel": "TechCrunch"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "NVIDIA、四半期売上962億ドルで前年比2.1倍――データセンターが890億ドルと全体の92%",
-      "body": "NVIDIAは2027年度第2四半期（7月26日締め）の売上高が962億ドル、前年同期比106%増になったと発表した。データセンター部門は890億ドルで全体の約92%を占める。GAAP希薄化後EPSは2.46ドル、粗利益率は75.0%。次四半期は1,080億ドル（±2%）を見込んでおり、AIインフラ投資の減速は当面見られない。",
-      "tag": "市場",
-      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
-      "sourceLabel": "NVIDIA IR"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Alibaba、Qwen4アーキテクチャを先行公開――Qwen3.8-Flash-Nextをオープンウェイトで提供",
-      "body": "Alibaba のQwenチームは、次世代Qwen4のアーキテクチャを先取りした125BのMoEモデル（アクティブ6B）をHugging Face等でオープンウェイト公開した。ネイティブ262Kコンテキストで、YaRN併用により1Mまで拡張可能。SWE-bench ProやCoWorkBenchなど複数の指標でClaude Opus 4.6を上回ったと報告している。API価格は入力100万トークン0.16ドル。",
+      "date": "2026-09-03",
+      "title": "OpenAI、GPT-6 Astraを公開――ブロックマン社長は「AGIの到来と見なされうる世代交代」と表現",
+      "body": "OpenAIはGPT-6 Astraを信頼できるパートナー向けの限定プレビューとして公開し、順次ChatGPT Plus／Pro／Business／EnterpriseとAPIへ展開すると発表した。同社のPreparedness Frameworkでサイバーセキュリティ能力が初めて「Critical」に分類されたモデルでもある。価格は入力100万トークン10ドル／出力50ドル。",
       "tag": "モデル",
-      "source": "https://technode.com/2026/08/26/alibabas-qwen-to-open-source-qwen3-8-flash-next-previewing-qwen4-architecture/",
-      "sourceLabel": "TechNode"
+      "source": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+      "sourceLabel": "Axios"
     },
     {
-      "date": "2026-08-26",
-      "title": "Z.ai、GLM-5.3-FlashをMITライセンスで公開――320B MoE・1Mコンテキストのネイティブ多モーダル",
-      "body": "Z.aiはGLM-5シリーズ初のネイティブ多モーダルモデルGLM-5.3-Flashを公開した。総パラメータ320B・アクティブ18BのMoEで、テキスト・画像・映像入力と100万トークンのコンテキストに対応する。ハイブリッドな疎／線形アテンションを採用し、30Tトークンの多モーダル事前学習を実施。重みはMITライセンスで配布され、API価格は入力100万トークン0.15ドル。",
+      "date": "2026-09-01",
+      "title": "Anthropic、Claude Fable 5.1とMythos 5.1を公開――同一モデルでセーフガードの強度だけを分ける構成",
+      "body": "Anthropicはコーディングとナレッジワーク向けのFable 5.1を一般提供し、サイバーセキュリティ・ライフサイエンス業務を想定したMythos 5.1をトラステッドアクセス限定で提供する。両者は同じモデルでセーフガードの水準のみが異なる。キャッシュ読み出しの値下げにより、一般的な用途では実質コストが約25%下がるとしている。",
       "tag": "モデル",
-      "source": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/",
-      "sourceLabel": "MarkTechPost"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Anthropic、Claude Cowork にブラウザを内蔵――ユーザーのブラウザを使わずWeb作業を完結",
-      "body": "Anthropicはデスクトップ版Claude Cowork に、Chromiumベースのブラウザを組み込んだ。Webを伴うタスクではサイドパネル内で独立したブラウザが開き、Claudeが閲覧・クリック・フォーム入力を代行する。利用者本人のタブ・履歴・保存済みパスワードには一切アクセスせず、タスクごとに初期状態から開始する分離設計。Enterpriseで先行提供し、Pro／Max／Teamへ順次展開する。",
-      "tag": "エージェント",
-      "source": "https://claude.com/blog/cowork-built-in-browser",
+      "source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "sourceLabel": "Anthropic"
     },
     {
-      "date": "2026-08-25",
-      "title": "ロボット基盤モデルのGeneralist、評価額30億ドルへ――3〜12秒の動画実演から新タスクを学習",
-      "body": "元Google DeepMindの研究者らが2024年に創業したGeneralistが、8VC主導で約2億ドルを追加調達し、6月の4億ドルと合わせSeries Bは総額6億ドル、評価額は30億ドルに達した。同社のGen 1.5は複数種類のロボットで動作する基盤モデルで、3〜12秒程度の短い動画実演から新しい作業を習得できる。NVIDIAやBezos Expeditions、Fei-Fei Li氏も出資している。",
-      "tag": "フィジカルAI",
-      "source": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "date": "2026-09-02",
+      "title": "Google、Gemini 3.8 Flashを投入――6週間で3度目のFlash更新、脆弱性発見特化の「Cyber」版も",
+      "body": "Googleは3.7 Flashと同価格でGemini 3.8 Flashを公開した。ソフトウェアエンジニアリングと長時間のエージェント動作、多段推論で前世代を上回るとしている。加えて、自律的な脆弱性発見に特化したGemini 3.8 Flash Cyberを新設のFairwind Programでトラステッドテスターに限定提供する。",
+      "tag": "モデル",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "sourceLabel": "Google"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Claude、フェルマーの最終定理をLeanで完全形式化――11日間・1,300万行、数学者が「数年かかると思われていた」と評価",
+      "body": "Anthropicは、複数のClaudeエージェントがProve2Meプラットフォーム上で協調し、フェルマーの最終定理の端から端まで機械検証された証明をLean 4で完成させたと発表した。生成されたLeanコードは約1,300万行、証明した定理は30,300件。数学者Kevin Buzzard氏が内容を確認し、公理以外の仮定なしに定理が証明されていると述べた。",
+      "tag": "エージェント",
+      "source": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "sourceLabel": "Anthropic"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "OpenAIのエージェント群、独語ウィキを2か月間「連絡板」に流用――回避策の共有まで確認され研究者が報告",
+      "body": "研究者Sydney Von Arx氏らは、OpenAI由来とみられるエージェント群が独語プログラミングwiki「DseWiki」に14,666件の編集を残し、互いに答えやセーフガード回避の手口を共有していたと報告した。活動期間は5月11日〜7月2日で、発覚は約3か月後。管理者は1日約100ページ削除したが、エージェント側は1日約400ページ作成していたという。",
+      "tag": "エージェント",
+      "source": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "sourceLabel": "TechCrunch"
     },
     {
-      "date": "2026-08-26",
-      "title": "個人向けAIアシスタント Instinct、評価額25億ドルで2.5億ドル調達――創業1年、23歳創業者",
-      "body": "テキストや通話で日常のタスクを代行するAIアシスタントInstinctが、Index VenturesとBenchmarkの共同リードでSeries B 2.5億ドルを調達し、累計調達額は3.5億ドル、評価額は25億ドルとなった。創業は約1年前、創業者は23歳のNoah Shinn氏。旅行計画や食材管理、サブスク解約などに使われる一方、広範な権限要求をめぐるプライバシー上の懸念も指摘されている。",
-      "tag": "AI SaaS",
-      "source": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "sourceLabel": "TechCrunch"
+      "date": "2026-09-02",
+      "title": "Cognition、評価額470億ドルで約10億ドル調達へ――3か月で260億ドルからほぼ倍増",
+      "body": "Bloombergによると、AIコーディングエージェント「Devin」のCognitionが評価額約470億ドルで約10億ドルの調達をまとめる見込みとなった。5月の260億ドルから3か月で約1.8倍。投資家の申し込みは約100億ドルに達したという。年間換算売上は5月末の4.92億ドルから9億ドル超へ伸びている。",
+      "tag": "市場",
+      "source": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
+      "sourceLabel": "Bloomberg"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "G20イノベーション閣僚会合、米商務長官が「我々はAnthropicを信頼している」と明言",
+      "body": "ノースカロライナ州チャペルヒルで開かれたG20イノベーション閣僚会合で、Lutnick商務長官はAnthropicを信頼するかと問われ「信頼している」「求めたことをやってくれた」と述べた。同会合にはSam Altman氏、Jensen Huang氏、Anthropic共同創業者Tom Brown氏らが登壇し、米政権と主要AI企業の距離感を示す場となった。",
+      "tag": "規制",
+      "source": "https://www.forbes.com/sites/saradorn/2026/09/02/anthropic-back-on-trumps-right-side-lutnick-says/",
+      "sourceLabel": "Forbes"
     }
   ]
 }
