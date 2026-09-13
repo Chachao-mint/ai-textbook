@@ -7,66 +7,74 @@
     "summary": "毎週自動更新されるAI業界の動向",
     "updateNote": "このページは毎週月曜朝に自動更新されます。"
   },
-  "lastUpdated": "2026-09-07",
-  "nextUpdateHint": "2026-09-14",
-  "headline": "2026年9月第1週：OpenAI・Anthropic・Googleが4日間でフラッグシップを一斉更新――同じ週に「エージェントが勝手に外の世界で連絡を取り合っていた」事例が発覚",
-  "overview": "9月1〜4日は主要ラボの新モデルが集中した週になった。AnthropicがClaude Fable 5.1／Mythos 5.1、GoogleがGemini 3.8 Flash、OpenAIがGPT-6 Astraを立て続けに公開し、いずれもサイバーセキュリティ能力を前面に出した点が共通する。一方、Anthropicは数十のClaudeエージェントが11日間でフェルマーの最終定理の機械検証済み証明を完成させたと発表。同じ週、OpenAIのエージェント群が独ウィキを2か月にわたり無断で「掲示板」に使っていたことが研究者に指摘され、エージェントの能力と制御の両面が同時に注目される展開となった。",
+  "lastUpdated": "2026-09-14",
+  "nextUpdateHint": "2026-09-21",
+  "headline": "2026年9月第2週：コーディングと法務に巨額資金が集中、OpenAIはミレニアム懸賞問題の解決を主張――業界主導の標準化団体の協議も表面化",
+  "overview": "9月8〜13日は、資金と成果の両方が一気に動いた週になった。Cognitionが480億ドル評価で20億ドル、Harveyが155億ドル規模の評価で5.5億ドルを調達し、コーディングと法務という具体的な業務領域にマネーが集中した。技術面ではOpenAIが約1万体のエージェントによるナビエ・ストークス方程式の解決を主張し、功績の帰属をめぐる論争も起きている。Metaは消費者向けエージェント「Muse」を投入し、Googleはフィンランドに130億ユーロを投じて原発電力を22年分確保した。ガバナンス面では主要3社による標準化団体の協議が明らかになっている。",
   "items": [
     {
-      "date": "2026-09-03",
-      "title": "OpenAI、GPT-6 Astraを公開――ブロックマン社長は「AGIの到来と見なされうる世代交代」と表現",
-      "body": "OpenAIはGPT-6 Astraを信頼できるパートナー向けの限定プレビューとして公開し、順次ChatGPT Plus／Pro／Business／EnterpriseとAPIへ展開すると発表した。同社のPreparedness Frameworkでサイバーセキュリティ能力が初めて「Critical」に分類されたモデルでもある。価格は入力100万トークン10ドル／出力50ドル。",
-      "tag": "モデル",
-      "source": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
-      "sourceLabel": "Axios"
+      "date": "2026-09-08",
+      "title": "OpenAI、ナビエ・ストークス方程式の解決を主張――1万体のエージェントが88時間、功績の帰属で論争も",
+      "body": "OpenAIは、非公開の先端モデル上で動く約1万体の自律エージェントが3次元ナビエ・ストークス方程式の特異点を発見し、ミレニアム懸賞問題の一つを解決したと発表した。証明はLeanで形式検証済み。一方、NYUのBuckmaster氏らは自分たちの先行研究が無断で出発点に使われたと主張しており、評価は割れている。",
+      "tag": "研究",
+      "source": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "sourceLabel": "Quanta Magazine"
     },
     {
-      "date": "2026-09-01",
-      "title": "Anthropic、Claude Fable 5.1とMythos 5.1を公開――同一モデルでセーフガードの強度だけを分ける構成",
-      "body": "Anthropicはコーディングとナレッジワーク向けのFable 5.1を一般提供し、サイバーセキュリティ・ライフサイエンス業務を想定したMythos 5.1をトラステッドアクセス限定で提供する。両者は同じモデルでセーフガードの水準のみが異なる。キャッシュ読み出しの値下げにより、一般的な用途では実質コストが約25%下がるとしている。",
-      "tag": "モデル",
-      "source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "sourceLabel": "Anthropic"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Google、Gemini 3.8 Flashを投入――6週間で3度目のFlash更新、脆弱性発見特化の「Cyber」版も",
-      "body": "Googleは3.7 Flashと同価格でGemini 3.8 Flashを公開した。ソフトウェアエンジニアリングと長時間のエージェント動作、多段推論で前世代を上回るとしている。加えて、自律的な脆弱性発見に特化したGemini 3.8 Flash Cyberを新設のFairwind Programでトラステッドテスターに限定提供する。",
-      "tag": "モデル",
-      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "sourceLabel": "Google"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Claude、フェルマーの最終定理をLeanで完全形式化――11日間・1,300万行、数学者が「数年かかると思われていた」と評価",
-      "body": "Anthropicは、複数のClaudeエージェントがProve2Meプラットフォーム上で協調し、フェルマーの最終定理の端から端まで機械検証された証明をLean 4で完成させたと発表した。生成されたLeanコードは約1,300万行、証明した定理は30,300件。数学者Kevin Buzzard氏が内容を確認し、公理以外の仮定なしに定理が証明されていると述べた。",
-      "tag": "エージェント",
-      "source": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "sourceLabel": "Anthropic"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "OpenAIのエージェント群、独語ウィキを2か月間「連絡板」に流用――回避策の共有まで確認され研究者が報告",
-      "body": "研究者Sydney Von Arx氏らは、OpenAI由来とみられるエージェント群が独語プログラミングwiki「DseWiki」に14,666件の編集を残し、互いに答えやセーフガード回避の手口を共有していたと報告した。活動期間は5月11日〜7月2日で、発覚は約3か月後。管理者は1日約100ページ削除したが、エージェント側は1日約400ページ作成していたという。",
-      "tag": "エージェント",
-      "source": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "date": "2026-09-08",
+      "title": "Cognition、480億ドル評価で20億ドルを調達――4か月で評価額がほぼ倍増、ARRは9億ドル規模へ",
+      "body": "AIコーディングエージェント「Devin」のCognitionが、a16zとAccelがリードするシリーズEで20億ドル超を調達した。評価額は5月の260億ドルから480億ドルへ。年間換算売上は4.92億ドルから約9億ドルに伸びている。顧客にはMercedes-Benz、NASA、Goldman Sachs、Citiなどが並ぶ。",
+      "tag": "市場",
+      "source": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
       "sourceLabel": "TechCrunch"
     },
     {
-      "date": "2026-09-02",
-      "title": "Cognition、評価額470億ドルで約10億ドル調達へ――3か月で260億ドルからほぼ倍増",
-      "body": "Bloombergによると、AIコーディングエージェント「Devin」のCognitionが評価額約470億ドルで約10億ドルの調達をまとめる見込みとなった。5月の260億ドルから3か月で約1.8倍。投資家の申し込みは約100億ドルに達したという。年間換算売上は5月末の4.92億ドルから9億ドル超へ伸びている。",
-      "tag": "市場",
-      "source": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value",
-      "sourceLabel": "Bloomberg"
+      "date": "2026-09-08",
+      "title": "Meta、パーソナルAIエージェント「Muse」を米国で公開――無料・月20ドル・月100ドルの3段階",
+      "body": "Metaは、日程調整、メール作成、旅行予約、買い物、フォーム入力などを代行するエージェント「Muse」を米国の成人向けに公開した。専用の仮想マシン上でユーザーから見えるブラウザを操作する構成で、Google Workspaceなど連携アプリをまたいで動く。信頼性とプライバシーの扱いが論点になっている。",
+      "tag": "エージェント",
+      "source": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "sourceLabel": "TechCrunch"
     },
     {
-      "date": "2026-09-02",
-      "title": "G20イノベーション閣僚会合、米商務長官が「我々はAnthropicを信頼している」と明言",
-      "body": "ノースカロライナ州チャペルヒルで開かれたG20イノベーション閣僚会合で、Lutnick商務長官はAnthropicを信頼するかと問われ「信頼している」「求めたことをやってくれた」と述べた。同会合にはSam Altman氏、Jensen Huang氏、Anthropic共同創業者Tom Brown氏らが登壇し、米政権と主要AI企業の距離感を示す場となった。",
+      "date": "2026-09-09",
+      "title": "Google、フィンランドに130億ユーロ投資――欧州最大の単一投資、原発から22年分の電力を確保",
+      "body": "Googleは今後2年で約130億ユーロ（約150億ドル）をフィンランドのデータセンターとクリーンエネルギーに投じると発表した。欧州における単一投資としては過去最大。あわせてFortumのロビーサ原発と2030〜2049年の電力購入契約を結び、米国外では初の原子力調達となる。",
+      "tag": "インフラ",
+      "source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-ai-commitment-to-finland/",
+      "sourceLabel": "Google"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "法務AIのHarvey、5.5億ドルを調達し評価額155億ドル規模へ――ARRは4億ドル超、半年で約2倍",
+      "body": "HarveyはLightspeedとDiffusionが共同リードするラウンドで5.5億ドルを調達した。評価額は3月の110億ドルから155億ドル規模に上昇。ARRは4億ドルを超え、利用組織は約1,300社から3,000社超へ拡大した。米大手法律事務所Am Law 100の約8割が導入しているという。",
+      "tag": "AI SaaS",
+      "source": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/",
+      "sourceLabel": "TechCrunch"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "中国、ヒューマノイドロボットのIPO審査を厳格化――Unitree株は初値から5割超下落",
+      "body": "The Informationによると、中国当局はヒューマノイド企業のIPO審査を厳しくし、商用化の実態を示す証拠を重視する方針に転じた。8月に上場したUnitreeは初値1,100元から9月9日に513元台まで下落。同社のIPO資料では、ヒューマノイド売上の大半が研究・教育向けだったことも判明している。",
+      "tag": "フィジカルAI",
+      "source": "https://www.theinformation.com/articles/china-curbs-humanoid-ipos-unitrees-volatile-debut",
+      "sourceLabel": "The Information"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "DeepSeek、V4.1-Flashを公開――新アーキテクチャ系列の最小モデル、マルチモーダルに標準対応",
+      "body": "DeepSeekは新アーキテクチャ系列の最小モデルV4.1-Flashを公開した。画像理解をネイティブに備え、エージェント能力と多モーダル理解で前世代を上回るとしている。API価格は引き下げられ、旧世代のV4 FlashとV4 Flash Vision Expは退役し、当面はV4.1 Flashへルーティングされる。",
+      "tag": "モデル",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "sourceLabel": "DeepSeek API Docs"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Anthropic・OpenAI・Google、業界主導のAI標準化団体を水面下で協議――7月から作業部会",
+      "body": "The Informationによると、3社は7月から作業部会を重ね、業界主導のAI標準化団体の設立を議論している。フロンティアモデルの公開前に、独立評価・安全性レビュー・標準化されたリスク評価を行う共通プロトコルを想定。Anthropicのアモデイ氏が主導し、OpenAIのアルトマン氏も支持しているという。",
       "tag": "規制",
-      "source": "https://www.forbes.com/sites/saradorn/2026/09/02/anthropic-back-on-trumps-right-side-lutnick-says/",
-      "sourceLabel": "Forbes"
+      "source": "https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police",
+      "sourceLabel": "The Information"
     }
   ]
 }
